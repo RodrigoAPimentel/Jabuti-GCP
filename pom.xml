@@ -18,7 +18,7 @@
 	<packaging>war</packaging>
 	
 	<name>Jabuti-GCP</name>
-	<description>Gerenciador de Coleções Pessoais</description>
+	<description>Gerenciador de Coleções Pessoais 890099879</description>
 
 	<properties>
 		<java.version>11</java.version>
