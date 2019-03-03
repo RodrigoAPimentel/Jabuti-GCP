@@ -18,10 +18,10 @@
 	<packaging>war</packaging>
 	
 	<name>Jabuti-GCP</name>
-	<description>Gerenciador de Coleções Pessoais japinha</description>
+	<description>Gerenciador de Coleções Pessoais</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>10</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
