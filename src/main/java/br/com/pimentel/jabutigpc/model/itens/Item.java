@@ -18,10 +18,9 @@ import br.com.pimentel.jabutigpc.model.enums.ItemTipo;
 import br.com.pimentel.jabutigpc.model.enums.Status;
 
 /**
- * @author Rodrigo Pimentel
- * 
  * Itens Colecionaveis
- *
+ * 
+ * @author Rodrigo Pimentel
  */
 @Entity @Inheritance(strategy=InheritanceType.TABLE_PER_CLASS)
 public abstract class Item implements Serializable {
@@ -38,8 +37,12 @@ public abstract class Item implements Serializable {
 	@Enumerated(EnumType.STRING) private Status status;
 	@Column(length=20) private Integer quantidadeDeEmprestimos;
 
+	public Item() {
+		super();
+	}
+
 	/** 
-	 * Cria um Item Colecionavel
+	 * Item Colecionavel
 	 * 
 	 * @param tipo Tipo do Item colecionavel
 	 * @param titulo Titulo do Item colecionavel
@@ -67,6 +70,13 @@ public abstract class Item implements Serializable {
 	 */
 	public Integer getCodigo() {
 		return codigo;
+	}
+
+	/**
+	 * @param codigo Codigo do Item colecionavel
+	 */
+	public void setCodigo(Integer codigo) {
+		this.codigo = codigo;
 	}
 
 	/**
@@ -170,7 +180,7 @@ public abstract class Item implements Serializable {
 	/**
 	 * @return Quantidade de vezes emprestado o Item colecionavel
 	 */
-	public Integer getQuantidadedDeEmprestimos() {
+	public Integer getQuantidadeDeEmprestimos() {
 		return quantidadeDeEmprestimos;
 	}
 
@@ -226,9 +236,9 @@ public abstract class Item implements Serializable {
 	 */
 	@Override
 	public String toString() {
-		return "Item [codigo=" + codigo + ", tipo=" + tipo + ", titulo=" + titulo + ", precoCompra=" + precoCompra
-				+ ", precoVenda=" + precoVenda + ", observacoes=" + observacoes + ", estado=" + estado + ", status="
-				+ status + ", quantidadeDeEmprestimos=" + quantidadeDeEmprestimos + "]";
+		return "[codigo=" + codigo + ", tipo=" + tipo.getDescricaoDeTipo() + ", titulo=" + titulo + ", precoCompra=" + precoCompra
+				+ ", precoVenda=" + precoVenda + ", observacoes=" + observacoes + ", estado=" + estado.getDescricaoDeEstado() 
+				+ ", status=" + status.getDescricaoDeStatus() + ", quantidadeDeEmprestimos=" + quantidadeDeEmprestimos + "]";
 	}
 	
 }

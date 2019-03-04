@@ -4,10 +4,9 @@
 package br.com.pimentel.jabutigpc.model.enums;
 
 /**
- * @author Rodrigo Pimentel
- * 
  * Estado de Itens Colecionaveis
  * 
+ * @author Rodrigo Pimentel
  */
 public enum Estado {
 

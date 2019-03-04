@@ -1,0 +1,6 @@
+04-03-2019 00:04:20 [main] {50} INFO  b.c.p.j.t.JabutiGcpApplicationTests - Starting JabutiGcpApplicationTests on DESKTOP-8MH68BF with PID 19856 (started by pimen in C:\RODRIGO\PROGRAMACAO\WORKSPACE\Jabuti-GCP)
+04-03-2019 00:04:20 [main] {675} INFO  b.c.p.j.t.JabutiGcpApplicationTests - No active profile set, falling back to default profiles: default
+04-03-2019 00:04:37 [main] {59} INFO  b.c.p.j.t.JabutiGcpApplicationTests - Started JabutiGcpApplicationTests in 18.462 seconds (JVM running for 23.619)
+04-03-2019 00:08:07 [main] {50} INFO  b.c.p.j.t.JabutiGcpApplicationTests - Starting JabutiGcpApplicationTests on DESKTOP-8MH68BF with PID 8644 (started by pimen in C:\RODRIGO\PROGRAMACAO\WORKSPACE\Jabuti-GCP)
+04-03-2019 00:08:07 [main] {675} INFO  b.c.p.j.t.JabutiGcpApplicationTests - No active profile set, falling back to default profiles: default
+04-03-2019 00:08:19 [main] {59} INFO  b.c.p.j.t.JabutiGcpApplicationTests - Started JabutiGcpApplicationTests in 13.608 seconds (JVM running for 16.263)

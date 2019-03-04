@@ -4,17 +4,16 @@
 package br.com.pimentel.jabutigpc.model.enums;
 
 /**
- * @author Rodrigo Pimentel
- * 
  * Tipo de Itens Colecionaveis
- *
+ * 
+ * @author Rodrigo Pimentel
  */
 public enum ItemTipo {
 
 	HQ("história em quadrinhos"),
-	DVDCD("DVD / CD"),
-	GAMES("Jogos de Console ou Computador"),
-	TABULEIRO("Jogos de Tabuleiro");
+	DVDCD("DVD(Digital Video Disc) ou CD(Compact Disc)"),
+	GAMES("Jogo de Console ou Computador"),
+	TABULEIRO("Jogo de Tabuleiro");
 	
 	private String descricaoDeTipo;
 

@@ -1,4 +1,4 @@
-package br.com.pimentel.jabutigpc;
+package br.com.pimentel.jabutigpc.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

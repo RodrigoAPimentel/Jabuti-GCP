@@ -5,24 +5,31 @@ package br.com.pimentel.jabutigpc.model.itens;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+
 import br.com.pimentel.jabutigpc.model.enums.Estado;
 import br.com.pimentel.jabutigpc.model.enums.ItemTipo;
 import br.com.pimentel.jabutigpc.model.enums.Status;
 
 /**
- * @author Rodrigo Pimentel
- * 
  * Historia em Quadrinhos
- *
+ * 
+ * @author Rodrigo Pimentel
  */
+@Entity
 public class HQ extends Item implements Serializable {
 
 	private static final long serialVersionUID = 6150291262821564241L;
 	
-	private Integer numero;
-	private String editora;
-	private String universo;
+	@Column(length=10) private Integer numero;
+	@Column(length=100) private String editora;
+	@Column(length=100) private String universo;
 	
+	public HQ() {
+		super();
+	}
+
 	/**
 	 * Historia em Quadrinhos
 	 * 
@@ -32,7 +39,7 @@ public class HQ extends Item implements Serializable {
 	 * @param precoVenda Preço de Venda do Item colecionavel
 	 * @param observacoes Observações
 	 * @param estado Estado do Item colecionavel
-	 * @param status Staus do Item colecionavel
+	 * @param status Status do Item colecionavel
 	 * @param numero Numero da Edição da Historia em Quadrinhos
 	 * @param editora Editora da Historia em Quadrinhos
 	 * @param universo Universo da Historia em Quadrinhos
