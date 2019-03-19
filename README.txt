@@ -8,4 +8,3 @@
 - UML incluido no root do projeto com o nome "Jabuti-GPC(UML)" no formato .jpg e .ucls(Plugin ObjectAid);
 - Arquivos de Log são armazenados na pasta "logs" no root do projeto.
 - Para modificar as configurações de Log alterar o arquivo logback.xml em src/main/resources.
-kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
