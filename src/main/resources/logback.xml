@@ -46,14 +46,14 @@
 
 	<!-- Define as saidas pelo pacote da aplicação -->
 	<!-- Pacote de classes da aplicação -->
-	<logger name="br.com.pimentel.jabutigpc" level="info" additivity="false">
+	<logger name="br.com.pimentel" level="info" additivity="false">
 		<appender-ref ref="FILE" />
 		<appender-ref ref="STDOUT" />
 	</logger>
 	
 	<!-- Define as saidas pelo pacote da aplicação -->
 	<!-- Pacote de classes de teste da aplicação -->
-	<logger name="br.com.pimentel.jabutigpc.test" level="info" additivity="false">
+	<logger name="br.com.pimentel.test" level="info" additivity="false">
 		<appender-ref ref="FILE-TEST" />
 		<appender-ref ref="STDOUT" />
 	</logger>

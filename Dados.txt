@@ -1,0 +1,36 @@
+insert into jabuti_db.pessoa (cpf, nome, sexo, endereco_id)
+values ('00000000000', 'Rodrigo Pimentel', 'Masculino', '1'),
+	   ('11111111111', 'Joazinho Da Silva', 'Masculino', '2'),
+       ('22222222222', 'Manoel da Silva santos', 'Masculino', '3');
+
+insert into jabuti_db.endereco (id, bairro, caixa_postal, cep, cidade, complemento, email1, email2, endereco_web, estado, numero, observacao_endereco, pais, rua, telefone1, telefone2, telefone3)
+values
+('1', 'Dinamérica', '4444', '58432045', 'Campina Grande', 'Bloco S, apt 302', 'pimentelmsn@hotmail.com', 'rodrigoecarmen@gmail.com', 'www.qq.com.br', 'PB', '115', 'obs Uuario Rodrigo', 'Brasil', 'Rua Antônio José Santiago 2', '1111111111', '22222222222', '33333333333'),
+('2', 'Centro', '9999', '58670000', 'Gurjão', '', 'email principal', 'email secundario', 'www.afa.com', 'PB', '423', 'obs joazinho', 'Brasil', 'Genuina Pessoa', '6666666666', '77777777777', '88888888888'),
+('3', 'Dinamérica', '7897', '58432000', 'Campina Grande', '', '79797', '789789', '7979', 'PB', '0', '7978979', 'Brasil', 'Rua Engenheiro Lourival Andrade', '1232334344', '35456567678', '67867869979');
+
+	   
+insert into jabuti_db.usuario (nivel_usuario, parentesco, cpf)
+values ('ADMIN', '-', '00000000000'),
+	   ('ADMIN', 'Amigo', '11111111111'),
+       ('USER', 'Amigo', '22222222222');
+
+insert into jabuti_db.item (estado, observacoes, preco_compra, preco_venda, quantidade, quantidade_de_emprestimos, status, tipo, titulo)
+values
+('USADO', 'obs SuperMan', '12.34', '45.64', '1', '0', 'NACOLECAO', 'HQ', 'Super-Man'),
+('USADO', 'obs Djavan', '45.55', '78.99', '1', '0', 'NACOLECAO', 'DVDCD', 'Djavan'),
+('USADO', '', '456.77', '500', '1', '0', 'NACOLECAO', 'GAMES', 'Tomb Raider'),
+('USADO', 'Obs ludo', '34.56', '67.89', '1', '0', 'NACOLECAO', 'TABULEIRO', 'Ludo');
+
+insert into jabuti_db.jogo_de_tabuleiro (codigo) values ('4');
+
+insert into jabuti_db.hq (editora, numero, universo, codigo) values ('Abril', '1', 'Marvel', '1');
+
+insert into jabuti_db.game (console, fontedlc, titulodlc, plataforma, zerado, codigo) values ('xbox', 'Live', 'A Bruxa', 'CONSOLE', 0, '3');
+
+insert into jabuti_db.dvdcd (conteudo, marca, codigo) values ('Musica', 'Sony', '2');
+
+
+
+
+

@@ -2,8 +2,8 @@
 <class-diagram version="1.2.3" icons="true" automaticImage="JPEG" always-add-relationships="false" 
   generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
   router="FAN">  
-  <interface id="1" language="java" name="br.com.pimentel.jabutigpc.repositories.PessoaRepository" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/repositories/PessoaRepository.java" binary="false" 
+  <interface id="1" language="java" name="br.com.pimentel.repositories.PessoaRepository" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/repositories/PessoaRepository.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="63" width="168" x="250" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
@@ -12,9 +12,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <enumeration id="2" language="java" name="br.com.pimentel.jabutigpc.model.enums.Estado" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/model/enums/Estado.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <enumeration id="2" language="java" name="br.com.pimentel.models.enums.Estado" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/models/enums/Estado.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="243" width="176" x="2750" y="680"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -22,9 +21,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <interface id="3" language="java" name="br.com.pimentel.jabutigpc.repositories.itens.GameRepository" 
-    project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/repositories/itens/GameRepository.java" binary="false" 
+  <interface id="3" language="java" name="br.com.pimentel.repositories.itens.GameRepository" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/repositories/itens/GameRepository.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="63" width="191" x="458" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
@@ -33,9 +31,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="4" language="java" name="br.com.pimentel.jabutigpc.repositories.itens.HQRepository" 
-    project="Jabuti-GCP" file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/repositories/itens/HQRepository.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="4" language="java" name="br.com.pimentel.repositories.itens.HQRepository" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/repositories/itens/HQRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="63" width="191" x="1692" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -43,9 +41,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="5" language="java" name="br.com.pimentel.jabutigpc.ServletInitializer" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/ServletInitializer.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="br.com.pimentel.ServletInitializer" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/ServletInitializer.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="99" width="317" x="920" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -53,9 +50,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <enumeration id="6" language="java" name="br.com.pimentel.jabutigpc.model.enums.Status" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/model/enums/Status.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <enumeration id="6" language="java" name="br.com.pimentel.models.enums.Status" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/models/enums/Status.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="261" width="176" x="683" y="680"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -63,9 +59,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <class id="7" language="java" name="br.com.pimentel.jabutigpc.JabutiGcpApplication" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/JabutiGcpApplication.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="7" language="java" name="br.com.pimentel.JabutiGcpApplication" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/JabutiGcpApplication.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="99" width="144" x="1508" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -73,8 +68,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="br.com.pimentel.jabutigpc.model.Endereco" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/model/Endereco.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="8" language="java" name="br.com.pimentel.models.Endereco" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/models/Endereco.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="1089" width="577" x="2966" y="680"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -82,9 +77,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="9" language="java" name="br.com.pimentel.jabutigpc.repositories.EnderecoRepository" 
-    project="Jabuti-GCP" file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/repositories/EnderecoRepository.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="9" language="java" name="br.com.pimentel.repositories.EnderecoRepository" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/repositories/EnderecoRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="63" width="168" x="42" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -92,9 +87,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="10" language="java" name="br.com.pimentel.jabutigpc.model.itens.Game" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/model/itens/Game.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="10" language="java" name="br.com.pimentel.models.itens.Game" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/models/itens/Game.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="297" width="413" x="899" y="680"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -102,9 +96,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="11" language="java" name="br.com.pimentel.jabutigpc.model.itens.Item" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/model/itens/Item.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="11" language="java" name="br.com.pimentel.models.itens.Item" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/models/itens/Item.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="603" width="296" x="1923" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -112,10 +105,10 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="12" language="java" name="br.com.pimentel.jabutigpc.repositories.itens.JogoDeTabuleiroRepository" 
+  <interface id="12" language="java" name="br.com.pimentel.repositories.itens.JogoDeTabuleiroRepository" 
     project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/repositories/itens/JogoDeTabuleiroRepository.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/repositories/itens/JogoDeTabuleiroRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="63" width="191" x="1277" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -123,8 +116,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="13" language="java" name="br.com.pimentel.jabutigpc.model.itens.JogoDeTabuleiro" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/model/itens/JogoDeTabuleiro.java" binary="false" 
+  <class id="13" language="java" name="br.com.pimentel.models.itens.JogoDeTabuleiro" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/models/itens/JogoDeTabuleiro.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="117" width="376" x="2334" y="680"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
@@ -133,9 +126,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <enumeration id="14" language="java" name="br.com.pimentel.jabutigpc.model.enums.Plataforma" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/model/enums/Plataforma.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <enumeration id="14" language="java" name="br.com.pimentel.models.enums.Plataforma" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/models/enums/Plataforma.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="153" width="193" x="1051" y="1809"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -143,8 +135,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <class id="15" language="java" name="br.com.pimentel.jabutigpc.model.itens.DLC" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/model/itens/DLC.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="15" language="java" name="br.com.pimentel.models.itens.DLC" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/models/itens/DLC.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="279" width="263" x="748" y="1809"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -152,8 +144,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="16" language="java" name="br.com.pimentel.jabutigpc.model.itens.HQ" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/model/itens/HQ.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="16" language="java" name="br.com.pimentel.models.itens.HQ" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/models/itens/HQ.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="279" width="347" x="1947" y="680"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -161,9 +153,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <enumeration id="17" language="java" name="br.com.pimentel.jabutigpc.model.enums.ItemTipo" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/model/enums/ItemTipo.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <enumeration id="17" language="java" name="br.com.pimentel.models.enums.ItemTipo" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/models/enums/ItemTipo.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="189" width="176" x="1731" y="680"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -171,18 +162,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <class id="18" language="java" name="br.com.pimentel.jabutigpc.model.itens.DVD_CD" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/model/itens/DVD_CD.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="225" width="339" x="1352" y="680"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="19" language="java" name="br.com.pimentel.jabutigpc.model.Pessoa" project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/model/Pessoa.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="18" language="java" name="br.com.pimentel.models.Usuario" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/models/Usuario.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="423" width="262" x="2966" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -190,9 +171,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="20" language="java" name="br.com.pimentel.jabutigpc.repositories.itens.DVD_CDRepository" 
-    project="Jabuti-GCP" 
-    file="/Jabuti-GCP/src/main/java/br/com/pimentel/jabutigpc/repositories/itens/DVD_CDRepository.java" binary="false" 
+  <interface id="19" language="java" name="br.com.pimentel.repositories.itens.DVDCDRepository" project="Jabuti-GCP" 
+    file="/Jabuti-GCP/src/main/java/br/com/pimentel/repositories/itens/DVDCDRepository.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="63" width="191" x="689" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
@@ -201,70 +181,90 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <association id="21">    
-    <end type="SOURCE" refId="19" navigable="false">      
-      <attribute id="22" name="endereco"/>      
-      <multiplicity id="23" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="24">    
+  <association id="20">    
     <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="25" name="status"/>      
-      <multiplicity id="26" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="27">    
-    <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="28" name="plataforma"/>      
-      <multiplicity id="29" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="14" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="30">    
-    <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="31" name="dlc"/>      
-      <multiplicity id="32" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="15" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="33">    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="34" name="tipo"/>      
-      <multiplicity id="35" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="17" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="36">    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="11"/>  
-  </generalization>  
-  <generalization id="37">    
-    <end type="SOURCE" refId="16"/>    
-    <end type="TARGET" refId="11"/>  
-  </generalization>  
-  <association id="38">    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="39" name="estado"/>      
-      <multiplicity id="40" minimum="0" maximum="1"/>    
+      <attribute id="21" name="estado">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="22" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="41">    
+  <association id="23">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="24" name="plataforma">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="25" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="26">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="27" name="endereco">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="29">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="30" name="status">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="31" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="32">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="33" name="dlc">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="34" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="35">    
     <end type="SOURCE" refId="10"/>    
     <end type="TARGET" refId="11"/>  
   </generalization>  
-  <generalization id="42">    
-    <end type="SOURCE" refId="18"/>    
+  <generalization id="36">    
+    <end type="SOURCE" refId="16"/>    
     <end type="TARGET" refId="11"/>  
   </generalization>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="38">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="39" name="tipo">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="40" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

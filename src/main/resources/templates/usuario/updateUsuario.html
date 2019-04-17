@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org" th:lang=${#locale.language}>
+
+<head>
+
+</head>
+
+<body id="page-top">
+
+	<section id="updateUsuario" th:fragment="updateUsuario">
+
+		<form class="user" th:object="${usuario}" th:action="@{usuario/update}" th:method="post">
+
+			<div class="form-group">
+				<div class="col-sm-12 mb-12 mb-sm-0 text-center">
+					<h2> <strong> ### EDITAR USUARIO ### </strong> </h2>	
+				</div>
+			</div>
+			
+			<div class="form-group row">
+				<div class="col-sm-2 mb-2 mb-sm-0">
+						<label for="formControlSelectNivel">Nivel:</label>
+						<select class="form-control rounded-pill" id="formControlSelectNivel" th:field="*{nivelUsuario}">
+	
+							<option th:each="nivel : ${nivel}"
+								th:value="${nivel}"
+								th:text="${nivel.descricaoNivelUsuario}"></option>
+						</select>
+				</div>
+				
+				<div class="col-sm-2 mb-2 mb-sm-0">
+					<label for="cpf">CPF:</label>
+					<input type="text" class="form-control rounded-pill cpf" id="cpf" placeholder="CPF" th:field="*{cpf}" required>
+				</div>
+				
+				<div class="col-sm-8 mb-8 mb-sm-0">
+					<label for="nome">Nome:</label>
+					<input type="text" class="form-control rounded-pill" id="nome" placeholder="Nome" th:field="*{nome}" required>
+				</div>
+			</div>
+			
+			<div class="form-group row">
+				<div class="col-sm-5 mb-5 mb-sm-0">
+						<label for="formControlSelectSexo">Sexo:</label>
+						<select class="form-control rounded-pill" id="formControlSelectSexo" th:field="*{sexo}">
+							<option th:value="Masculino">Masculino</option>
+							<option th:value="Feminino">Feminino</option>
+						</select>
+				</div>
+				
+				<div class="col-sm-5 mb-5 mb-sm-0">
+					<label for="parentesco">Parentesco:</label>
+					<input type="text" class="form-control rounded-pill" id="parentesco" placeholder="Parentesco" th:field="*{parentesco}" required>
+				</div>			
+			</div>
+			
+			<hr>
+			
+			<div class="form-group row">
+				<div class="col-sm-2 mb-2 mb-sm-0">
+					<label for="cep">CEP:</label>
+					<input type="text" class="form-control rounded-pill cep" id="cep" placeholder="CEP" th:field="*{endereco.cep}" required>
+				</div>
+				
+				<div class="col-sm-10 mb-10 mb-sm-0">
+					<label for="rua">Rua:</label>
+					<input type="text" class="form-control rounded-pill" id="rua" placeholder="Rua" th:field="*{endereco.rua}" required>
+				</div>
+			</div>
+			
+			<div class="form-group row">
+				<div class="col-sm-2 mb-2 mb-sm-0">
+					<label for="numero">Numero:</label>
+					<input type="text" class="form-control rounded-pill num" id="numero" placeholder="Numero" th:field="*{endereco.numero}" required>
+				</div>
+				
+				<div class="col-sm-4 mb-4 mb-sm-0">
+					<label for="bairro">Bairro:</label>
+					<input type="text" class="form-control rounded-pill" id="bairro" placeholder="Bairro" th:field="*{endereco.bairro}" required>
+				</div>
+				
+				<div class="col-sm-4 mb-4 mb-sm-0">
+					<label for="cidade">Cidade:</label>
+					<input type="text" class="form-control rounded-pill" id="cidade" placeholder="Cidade" th:field="*{endereco.cidade}" required>
+				</div>
+				
+				<div class="col-sm-2 mb-2 mb-sm-0">
+					<label for="estado">Estado:</label>
+					<input type="text" class="form-control rounded-pill" id="uf" placeholder="Estado" th:field="*{endereco.estado}" required>
+				</div>
+			</div>
+			
+			<div class="form-group row">
+				<div class="col-sm-9 mb-9 mb-sm-0">
+					<label for="complemento">Complemento:</label>
+					<input type="text" class="form-control rounded-pill" id="complemento" placeholder="Complemento" th:field="*{endereco.complemento}">
+				</div>
+				
+				<div class="col-sm-3 mb-3 mb-sm-0">
+					<label for="pais">Pais:</label>
+					<input type="text" class="form-control rounded-pill" id="pais" placeholder="Pais" th:field="*{endereco.pais}" required>
+				</div>
+			</div>
+			
+			<div class="form-group row">
+				<div class="col-sm-3 mb-3 mb-sm-0">
+					<label for="telefone1">Telefone Residencial:</label>
+					<input type="text" class="form-control rounded-pill phone_with_ddd" id="telefone1" placeholder="Telefone Residencial" th:field="*{endereco.telefone1}">
+				</div>
+				
+				<div class="col-sm-3 mb-3 mb-sm-0">
+					<label for="telefone2">Telefone Celular:</label>
+					<input type="text" class="form-control rounded-pill phone_with_ddd_new" id="telefone2" placeholder="Telefone Celular" th:field="*{endereco.telefone2}" required>
+				</div>
+				
+				<div class="col-sm-3 mb-3 mb-sm-0">
+					<label for="telefone3">Telefone Recado:</label>
+					<input type="text" class="form-control rounded-pill phone_with_ddd_new" id="telefone3" placeholder="Telefone Recado" th:field="*{endereco.telefone3}">
+				</div>
+				
+				<div class="col-sm-3 mb-3 mb-sm-0">
+					<label for="caixaPostal">Caixa Postal:</label>
+					<input type="text" class="form-control rounded-pill num" id="caixaPostal" placeholder="Caixa Postal" th:field="*{endereco.caixaPostal}">
+				</div>
+			</div>
+			
+			<div class="form-group row">
+				<div class="col-sm-4 mb-4 mb-sm-0">
+					<label for="email1">E-Mail Principal:</label>
+					<input type="text" class="form-control rounded-pill" id="email1" placeholder="E-Mail Principal" th:field="*{endereco.email1}" required>
+				</div>
+				
+				<div class="col-sm-4 mb-4 mb-sm-0">
+					<label for="email2">E-Mail Secundario:</label>
+					<input type="text" class="form-control rounded-pill" id="email2" placeholder="E-Mail Secundario" th:field="*{endereco.email2}">
+				</div>
+				
+				<div class="col-sm-4 mb-4 mb-sm-0">
+					<label for="enderecoWeb">Endereço Web:</label>
+					<input type="text" class="form-control rounded-pill" id="enderecoWeb" placeholder="Endereço Web" th:field="*{endereco.enderecoWeb}">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label for="observacaoEndereco">Observações de Endereço:</label>
+				<textarea class="form-control rounded-pill" id="observacaoEndereco" rows="3" th:field="*{endereco.observacaoEndereco}"></textarea>
+			</div>
+			
+			<hr>
+			
+			<div class="form-group" align="center">
+				<button type="submit" class="col-sm-8 mb-8 mb-sm-0 btn btn-primary btn-sm rounded-pill">Alterar</button>
+				<hr>
+				<a class="col-sm-6 mb-6 mb-sm-0 btn btn-warning btn-sm rounded-pill" href="usuario/sair" role="button">Sair</a>
+			</div>
+			
+		</form>
+
+	</section>	
+
+	<script src="js/jabuti.js" type="text/javascript"></script>
+	<script src="js/jquery.mask.js" type="text/javascript"></script>
+	<script src="js/jquery.mask.min.js" type="text/javascript"></script>
+	
+
+</body>
+
+</html>
